@@ -1,3 +1,4 @@
 {
-  "name": "phoenixjaymes/json-utilities"
+  "name": "phoenixjaymes/json-utilities",
+  "description": "PHP Functions to send JSON data using JSend specification"
 }
