@@ -1,5 +1,7 @@
 <?php
 
+namespace Phoenixjaymes\JsonUtilities;
+
 /**
  * A collection of JSON functions.
  * 
