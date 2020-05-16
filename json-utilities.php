@@ -22,7 +22,7 @@ class JsonUtility
      * 
      * @return void
      **/
-    public static function json_success()
+    public static function success()
     {
         $arr_response = [
             'status' => 'success',
@@ -42,7 +42,7 @@ class JsonUtility
      * 
      * @return void
      **/
-    public static function json_success_message($message)
+    public static function success_message($message)
     {
         $arr_response = [
             'status' => 'success',
@@ -64,7 +64,7 @@ class JsonUtility
      * 
      * @return void
      **/
-    public static function json_success_data($data)
+    public static function success_data($data)
     {
         $arr_response = [
             'status' => 'success',
@@ -80,7 +80,7 @@ class JsonUtility
      * 
      * @return void
      **/
-    public static function json_fail($messageObj)
+    public static function fail($messageObj)
     {
         $arr_response = [
             'status' => 'fail',
@@ -97,7 +97,7 @@ class JsonUtility
      * 
      * @return void
      **/
-    public static function json_error($message)
+    public static function error($message)
     {
         $arr_response = [
             'status' => 'error',
@@ -115,7 +115,7 @@ class JsonUtility
      * 
      * @return void
      **/
-    public static function json_error_database($message)
+    public static function error_database($message)
     {
         $arr_response = [
             'status' => 'fail',
@@ -134,7 +134,7 @@ class JsonUtility
      * 
      * @return void
      **/
-    public static function json_error_parameter()
+    public static function error_parameter()
     {
         $arr_response = [
             'status' => 'fail',
@@ -152,7 +152,7 @@ class JsonUtility
      * 
      * @return void
      **/
-    public static function json_error_duplicate()
+    public static function error_duplicate()
     {
         $arr_response = [
             'status' => 'fail',
@@ -170,7 +170,7 @@ class JsonUtility
      * 
      * @return void
      **/
-    public static function json_error_pos()
+    public static function error_pos()
     {
         $arr_response = [
             'status' => 'fail',
