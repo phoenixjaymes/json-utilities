@@ -76,15 +76,19 @@ class JsonUtility
     }
 
     /**
-     * Fail with message
+     * JSON fail function with message included. 
+     * 
+     * The function inserts a string message and echos JSON encoded response.
+     * 
+     * @param array $messageArr An array of failures
      * 
      * @return void
      **/
-    public static function fail($messageObj)
+    public static function fail($messageArr)
     {
         $arr_response = [
             'status' => 'fail',
-            'data' => $messageObj
+            'data' => $messageArr
         ];
 
         echo json_encode($arr_response);
@@ -93,7 +97,11 @@ class JsonUtility
 
 
     /**
-     * Error with message
+     * JSON error function with message included. 
+     * 
+     * The function inserts a string message and echos JSON encoded response.
+     * 
+     * @param string $message A simple string message
      * 
      * @return void
      **/
@@ -184,7 +192,7 @@ class JsonUtility
     }
 
     /**
-     * Encode and send data
+     * The function encodes data and echos JSON response.
      * 
      * @param array $arr 
      * 
