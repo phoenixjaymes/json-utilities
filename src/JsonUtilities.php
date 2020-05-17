@@ -13,7 +13,7 @@ namespace Phoenixjaymes\JsonUtilities;
  */
 
 
-class JsonUtility
+class JsonUtilities
 {
     /**
      * JSON success function.
