@@ -1,4 +1,15 @@
 {
   "name": "phoenixjaymes/json-utilities",
-  "description": "PHP Functions to send JSON data using JSend specification"
+  "description": "PHP Functions to send JSON data using JSend specification",
+  "authors": [
+    {
+      "name": "Jaymes Young"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Phoenixjaymes\\JsonUtilities": "src/"
+    }
+  }
 }
